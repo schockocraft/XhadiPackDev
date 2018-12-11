@@ -1,9 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
-#priority 9001 
-//it's over 9000
+#priority 1337
 
-val toolAxe = <ore:toolAxe>
+val toolAxe = <ore:toolAxe>;
 toolAxe.add(<minecraft:wooden_axe>);
 toolAxe.add(<minecraft:stone_axe>);
 toolAxe.add(<minecraft:golden_axe>);
@@ -37,14 +36,14 @@ toolAxe.add(<tconstruct:hatchet>);
 
 
 
-val toolSaw = <ore:toolSaw>
+val toolSaw = <ore:toolSaw>;
 //toolSaw.add(<>); Artisan Worktables Handsaw
 toolSaw.add(<ic2:chainsaw>);
 //toolSaw.add(<>); Fluxsaw
 
 
 
-val toolPickaxe = <ore:toolPickaxe>
+val toolPickaxe = <ore:toolPickaxe>;
 toolPickaxe.add(<minecraft:wooden_pickaxe>);
 //toolPickaxe.add(<slenderutilities:flint_pickaxe>);
 //toolPickaxe.add(<slenderutilities:bone_pickaxe>);

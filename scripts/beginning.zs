@@ -48,27 +48,29 @@ recipes.addShaped("worktableCarpenter",
 
 //6. string concat
 
-RecipeBuilder.addOutput(<slenderutilities:weavingsticks>)
+RecipeBuilder.addOutput(<slenderutilities:weavingsticks>);
 RecipeBuilder.setShapeless(
-[<minecraft:string>, <ore:woodStick>, <ore:woodStick>])
-RecipeBuilder.setName("toolWoven")
-RecipeBuilder.create()
+[<minecraft:string>, <ore:woodStick>, <ore:woodStick>]);
+RecipeBuilder.setName("toolWoven");
+RecipeBuilder.create();
 
-RecipeBuilder.setShaped([[<tconstruct:pattern>, <tconstruct:pattern>, <tconstruct:pattern>], [null, <minecraft:wool>, null], [<ore:woodPlank>, <ore:woodStick>, <ore:woodPlank>]])
-RecipeBuilder.setName("worktableTailor")
-RecipeBuilder.addOutput(<artisanworktables:???>)
-RecipeBuilder.addTool(<slenderutilities:weavingsticks>, 1)
-RecipeBuilder.create()
+//Hey Blackdemon, du hast ein Easteregg gefunden, leider ist mir nichts eingefallen, es besser zu verstecken... 🐣
+
+RecipeBuilder.setShaped([[<tconstruct:pattern>, <tconstruct:pattern>, <tconstruct:pattern>], [null, <minecraft:wool>, null], [<ore:woodPlank>, <ore:woodStick>, <ore:woodPlank>]]);
+RecipeBuilder.setName("worktableTailor");
+RecipeBuilder.addOutput(<artisanworktables:???>);
+RecipeBuilder.addTool(<slenderutilities:weavingsticks>, 1);
+RecipeBuilder.create();
 
 //7. its a trap door
-RecipeBuilder.setShapeless([<>])
-RecipeBuilder.setShaped([[<ore:woodStick>, <ore:woodTrapdoor>, <ore:woodStick>], [<ore:woodStick>, <slenderutilities:stringwoven>, <ore:woodStick>], [<ore:woodStick>, <ore:woodStick>, <ore:woodStick>]])
-RecipeBuilder.setName("openChest")
-RecipeBuilder.addOutput(<???>)
-RecipeBuilder.setExtraOutputOne(<>, 0.75)
-RecipeBuilder.setExtraOutputTwo(<>, 0.75)
-RecipeBuilder.addTool(<ore:toolAxe>, 1)
-RecipeBuilder.create()
+RecipeBuilder.setShapeless([<>]);
+RecipeBuilder.setShaped([[<ore:woodStick>, <ore:woodTrapdoor>, <ore:woodStick>], [<ore:woodStick>, <slenderutilities:stringwoven>, <ore:woodStick>], [<ore:woodStick>, <ore:woodStick>, <ore:woodStick>]]);
+RecipeBuilder.setName("openChest");
+RecipeBuilder.addOutput(<???>);
+RecipeBuilder.setExtraOutputOne(<>, 0.75);
+RecipeBuilder.setExtraOutputTwo(<>, 0.75);
+RecipeBuilder.addTool(<ore:toolAxe>, 1);
+RecipeBuilder.create();
  
 /*Basic Worktable:
   7×Sticks [U-Form] 

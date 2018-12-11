@@ -8,3 +8,4 @@ RecipeBuilder.setExtraOutputOne(<>, 0.75)
 RecipeBuilder.setExtraOutputTwo(<>, 0.75)
 RecipeBuilder.addTool(<ore:toolAxe>, 1)
 RecipeBuilder.create()
+

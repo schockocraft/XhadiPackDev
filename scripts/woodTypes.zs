@@ -1,9 +1,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
-#priority 9001 
-//it's over 9000
+#priority 1337
 
-val woodLog = <ore:woodLog>
+val woodLog = <ore:woodLog>;
 woodLog.add(<minecraft:log>);
 woodLog.add(<minecraft:log2>);
 woodLog.add(<harvestcraft:pamcinnamon>);
@@ -46,7 +45,7 @@ woodLog.add(<forestry:logs.vanilla.fireproof.1>);
 
 
 
-val woodPlanks = <ore:woodPlanks>
+val woodPlanks = <ore:woodPlanks>;
 woodPlanks.add(<minecraft:planks>);
 //hier bitte mehr einfügen
 
