@@ -80,13 +80,14 @@ RecipeBuilder.create()
 //BlackDemonFire hier weitere Holzsorten Einfügen
 
 
-//Vanilla mit Säge (5 statt 3 planks für doppelten durability verbrauch und weniger bark)
+//Vanilla mit Säge (5 statt 3 planks für doppelten durability verbrauch und weniger bark, erst in carpenters workSTATION möglich)
 RecipeBuilder.setShapeless([<minecraft:log:0>])
 RecipeBuilder.setName("oakAtCarpenterTableSaw")
 RecipeBuilder.addOutput(<minecraft:planks:0> * 5)
 //RecipeBuilder.setExtraOutputOne(<bark>, 0.25)
 RecipeBuilder.setExtraOutputTwo(<forestry:woodPulp>, 0.75)
 RecipeBuilder.addTool(<ore:toolSaw>, 2)
+RecipeBuilder.setMinimumTier(1)
 RecipeBuilder.create()
 
 //BlackDemonFire hier weitere Holzsorten Einfügen

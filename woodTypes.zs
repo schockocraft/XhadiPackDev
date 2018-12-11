@@ -52,3 +52,5 @@ woodPlanks.add(<minecraft:planks>);
 
 //ore:woodSticks einfügen
 //ore:woodBarkPiece einfügen (keine Bark Blocks)
+//ore:woodTrapdoor einfügen
+//ore:woodChest einfügen (Vanilla, Quarks, IE crate, Rustic Barrel, etc.)

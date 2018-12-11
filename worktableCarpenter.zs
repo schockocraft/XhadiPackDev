@@ -7,7 +7,7 @@ RecipeBuilder.get("carpenter");
 
 
 
-//tech1:5
+//beginning:5
 RecipeBuilder.setShaped([[<tconstruct:pattern>, <tconstruct:pattern>, <tconstruct:pattern>], [<ore:woodStick>, <ore:woodPlank>, <ore:woodStick>], [<ore:woodPlank>, <ore:woodPlank>, <ore:woodPlank>]])
 RecipeBuilder.setName("worktableBasic")
 RecipeBuilder.addOutput(<artisanworktables:???>)

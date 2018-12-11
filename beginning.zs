@@ -1,4 +1,4 @@
-/*ql_hqr_technik_earligame
+/*ql_hqr_beginning
 
 fehlende Ids sind durch ??? markiert (für suchfunktion)
 rezepte für woodPlanks siehe gettingWood.zs
@@ -44,26 +44,33 @@ recipes.addShaped("worktableCarpenter",
  [<ore:woodPlank>, <ore:woodPlank>]]);
 
 //5. tables set 
-//siehe worktableCarpenter.zs
+//worktableCarpenter.zs
 
-//6. 
+//6. string concat
+
+RecipeBuilder.addOutput(<slenderutilities:weavingsticks>)
+RecipeBuilder.setShapeless(
+[<minecraft:string>, <ore:woodStick>, <ore:woodStick>])
+RecipeBuilder.setName("toolWoven")
+RecipeBuilder.create()
+
+RecipeBuilder.setShaped([[<tconstruct:pattern>, <tconstruct:pattern>, <tconstruct:pattern>], [null, <minecraft:wool>, null], [<ore:woodPlank>, <ore:woodStick>, <ore:woodPlank>]])
+RecipeBuilder.setName("worktableTailor")
+RecipeBuilder.addOutput(<artisanworktables:???>)
+RecipeBuilder.addTool(<slenderutilities:weavingsticks>, 1)
+RecipeBuilder.create()
 
 //7. its a trap door
-
-
-
-RecipeBuilder.addOutput(<slenderutilities:stringwoven>)
-RecipeBuilder.setShaped(
-[[<minecraft:string>, null, <minecraft:string>], 
- [null, <minecraft:string>, null], 
- [<minecraft:string>, null, <minecraft:string>]]);
-RecipeBuilder.setName("wovenString")
-
+RecipeBuilder.setShapeless([<>])
+RecipeBuilder.setShaped([[<ore:woodStick>, <ore:woodTrapdoor>, <ore:woodStick>], [<ore:woodStick>, <slenderutilities:stringwoven>, <ore:woodStick>], [<ore:woodStick>, <ore:woodStick>, <ore:woodStick>]])
+RecipeBuilder.setName("openChest")
+RecipeBuilder.addOutput(<???>)
+RecipeBuilder.setExtraOutputOne(<>, 0.75)
+RecipeBuilder.setExtraOutputTwo(<>, 0.75)
+RecipeBuilder.addTool(<ore:toolAxe>, 1)
+RecipeBuilder.create()
  
 /*Basic Worktable:
-  5×String (x-form) 
-→ 1×Woven String
-
   7×Sticks [U-Form] 
 + 1×Woven String [Mitte] 
 →   Open Chest (ImmersiveCraft)*/
